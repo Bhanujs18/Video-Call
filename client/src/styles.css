@@ -1,0 +1,95 @@
+html{
+  background-image: url("https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-28.jpg");
+ 
+background-size: cover;
+ font-family: 'Kanit', sans-serif;
+ z-index: 1;
+}
+
+#msg{
+  background-color: white;
+  
+  color: black;
+  width: 72%;
+}
+
+.text{
+  color: rgb(255, 255, 255);
+  background-color: red;
+  display: flex;
+  width: max-content;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+#videoplayerbox{
+  display: flex;
+ width: 75%;
+ align-items: center;
+ justify-content: center;
+}
+.videoplayerdiv{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3%;
+  align-items: center;
+  justify-content: center;
+  
+  
+
+}
+
+#title{
+display: flex;
+text-align: start;
+
+}
+.liveicon{
+  margin: 2%;
+  height: 3em;
+  width: 4em;
+  color: white;  
+  
+}
+#shadow{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 2%;
+}
+
+.appbar{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+}
+
+#colorcall{
+ background-color: rgb(79, 207, 75);
+ color: white;
+}
+#header{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:space-between;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,12,45,1) 0%, rgba(162,162,162,1) 0%, rgba(115,115,124,0.9756945014333859) 49%, rgba(255,255,255,1) 100%);
+  
+}
+
+.input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  background-color: rgb(255, 255, 255);
+  margin: 3px;
+  padding: 9px;
+}
+.inputdiv{
+  margin-right: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
