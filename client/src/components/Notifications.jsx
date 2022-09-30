@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Button } from '@material-ui/core';
+import { Button, Typography } from '@material-ui/core';
 
 import { SocketContext } from '../Context';
 
@@ -10,7 +10,7 @@ const Notifications = () => {
     <>
       {call.isReceivingCall && !callAccepted && (
         <div style={{ display: 'flex', justifyContent: 'space-around' }}>
-          <p>{call.name} is calling:</p>
+          <Typography className='padding'>{call.name} is calling:  </Typography>
           <Button variant="contained" color="primary" onClick={answerCall}>
             Answer
           </Button>
