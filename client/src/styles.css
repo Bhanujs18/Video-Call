@@ -1,95 +1,65 @@
-html{
-  background-image: url("https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-28.jpg");
- 
-background-size: cover;
- font-family: 'Kanit', sans-serif;
- z-index: 1;
+
+  body {
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-28.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.sidebar{
+background-color: rgb(144, 141, 137);
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+}
+.vidbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+* {
+    margin: 0;
+    padding: 0;
 }
 
-#msg{
-  background-color: white;
-  
-  color: black;
-  width: 72%;
+#header{
+  display: block;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.callbox{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
 }
 
 .text{
-  color: rgb(255, 255, 255);
-  background-color: red;
-  display: flex;
-  width: max-content;
-  margin-left: 10px;
-  padding: 10px;
-}
-
-#videoplayerbox{
-  display: flex;
- width: 75%;
- align-items: center;
- justify-content: center;
-}
-.videoplayerdiv{
-  display: flex;
-  flex-wrap: wrap;
   margin: 3%;
-  align-items: center;
-  justify-content: center;
-  
-  
-
+  background: red;
+  color: white;
+  padding: 1%;
 }
 
-#title{
-display: flex;
-text-align: start;
-
-}
-.liveicon{
-  margin: 2%;
-  height: 3em;
-  width: 4em;
-  color: white;  
-  
-}
-#shadow{
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin: 2%;
-}
-
-.appbar{
+.notifications{
   display: flex;
-  background-color: rgb(255, 255, 255);
 }
 
-#colorcall{
- background-color: rgb(79, 207, 75);
- color: white;
+.padding{
+  padding: 4%;
 }
-#header{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content:space-between;
-  background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,12,45,1) 0%, rgba(162,162,162,1) 0%, rgba(115,115,124,0.9756945014333859) 49%, rgba(255,255,255,1) 100%);
-  
+#callbutton{
+  color: white;
+  background-color: rgb(10, 137, 95);
 }
-
-.input{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
-  background-color: rgb(255, 255, 255);
-  margin: 3px;
-  padding: 9px;
-}
-.inputdiv{
-  margin-right: 2%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
