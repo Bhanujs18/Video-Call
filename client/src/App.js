@@ -1,30 +1,27 @@
 import React from 'react';
-import { AppBar } from '@material-ui/core';
 
 import VideoPlayer from './components/VideoPlayer';
 import Sidebar from './components/Sidebar';
 import Notifications from './components/Notifications';
 
-
-
 const App = () => {
+  
 
   return (
-    <div >
-      <AppBar position='relative' color='grey'>
-    <div className='header'>
-   
+    <div id='header'>
+      <div className='sidebar' position="static" color="inherit">
+        <h1 className='text'> • Live </h1>
+        <div className='callbox'>
       <Sidebar>
+        <div className='notifications'>
         <Notifications />
+        </div>
       </Sidebar>
-    </div>
-    </AppBar>
-    <div>
-       
+      </div>
+      </div>
+      <div className='vidbox'>
       <VideoPlayer />
-      
-      
-    </div>
+      </div>
     </div>
   );
 };
