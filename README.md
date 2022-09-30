@@ -1,3 +1,3 @@
 # Video-Call
 
-Project link --- https://videocall-app-byjs.netlify.app/
+Project link --- https://videocallapp-byjs.netlify.app/
